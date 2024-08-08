@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2E2E31;
+    font-family: poppins;
+    color: white;
+}
+#home{
+    background:linear-gradient(rgba(0, 0, 0, 0.95), rgba(19, 18, 18, 0.95)), url("../images/fcf8559d17921a854db659e96c50967e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 20px 0 20px 0;
+    background-color: rgba(46, 46, 49, 0.7);
+}
+#brand{
+    color: rgb(240, 61, 61);
+}
+nav a{
+    font-weight: bolder;
+    border: 2px solid transparent;
+    margin-left:20px;
+    margin-right:20px
+
+}
+nav a:hover{
+    border-bottom: 2px solid rgb(240, 61, 61);
+}
+.main-row{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home p{
+    font-size: x-large;
+}
+#home p:last-child{
+    font-size: large;
+}
+#name{
+    font-size: 70px !important;
+    font-weight: 900;
+}
+#name inline{
+    color: rgb(240, 61, 61);
+    
+}
+#dev{
+    font-size: xx-large !important;
+}
+#about{
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    padding: 10px 0 0 13px;
+    border-top: rgb(240, 61, 61) 10px solid;
+    border-left: rgb(240, 61, 61) 10px solid;
+}    
+#details{
+    font-weight: bold;
+    font-size: large;
+    padding: 2% 0 0 5%;
+}
+#details p inline{
+    color: rgb(240, 61, 61);
+}
+.me{
+    font-size: 45px;
+}
+#home .btn{
+    padding: 3% 10% 3% 10%;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: 2px rgb(240, 61, 61) solid;
+    box-shadow: 4px 4px 4px 5px #252323;
+    font-weight: bold;
+    color: white;
+}
+#home .btn:hover{
+    background-color: rgb(240, 61, 61);
+    box-shadow: 5px 10px 8px 5px #252323;
+    color: black;
+}
+.peach{
+    color: rgb(240, 61, 61);
+    font-size: 30px;
+    max-width: auto;
+}
+#Whatido{
+    text-align: center;
+    font-weight: bold;
+}
+#services .card{
+    background-color: #3c3c3f;
+    box-shadow: 5px 10px 8px 5px #252323;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10%;
+    margin: 20px;
+    border-bottom: rgb(240, 61, 61) 10px solid;
+}
+#services .card:hover{
+    background-color: rgb(240, 61, 61);
+    color: #2E2E31;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+
+}
+#services i{
+    font-size: 50px;
+    color: rgb(240, 61, 61);
+}
+.card-title{
+    font-weight: 700;
+    
+}
+#projects{
+    margin-top: 10%;
+}
+#done{
+    text-align: center;
+    font-weight: bold;  
+}
+#projects .card{
+    background-image: linear-gradient(#ca8383, #8d2a2a);
+    color: #332b2b;
+    box-shadow: 5px 10px 8px 5px #252323;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10%;
+}
+#projects .card:hover{
+    background-image: linear-gradient(#2E2E31, #2E2E31);
+    color: #3a92bb;
+    transition: 0.5s ease;
+}
+#projects .btn{
+    border: #2E2E31 2px solid;
+    box-shadow: 5px 10px 8px 5px #252323;
+    padding: 10px;
+    background-color: #2E2E31;
+    color: rgb(240, 61, 61);
+    font-weight: bolder;  
+    background-position: left bottom;  
+}
+#projects .btn:hover{
+    padding: 10px;
+    background-color: rgb(240, 61, 61);
+    color: #2E2E31;
+    font-weight: bolder;
+    transform: scale(1.2);
+}
+#contact{
+    margin-top: 10%;
+}
+.contactme{
+    text-align: center;
+    font-weight: bold;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+.form-control{
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+}
+.form-control:hover{
+    border: rgb(240, 61, 61) 2px solid;
+}
+#contact .btn{
+    padding: 3% 10% 3% 10%;
+    background-color: rgb(240, 61, 61);
+    box-shadow: 5px 10px 8px 5px #252323;
+    margin: 10%;
+    border-radius: 30px;
+}
+#contact .btn:hover{
+    transform: scale(1.2);
+}
+.icon{
+    margin-right: 3%;
+    padding: 3%;
+    background-color: rgb(240, 61, 61);
+    border-radius: 50px;
+    color: #2E2E31;
+}
+.socialize i{
+    margin: 5%;
+    padding: 3%;
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px 5px #252323;
+    font-size: xx-large;
+    background-color: #3c3c3f;
+}
+.socialize i:hover{
+    background-color: rgb(240, 61, 61);
+    color: #2E2E31;
+}
+footer{
+    background-color: #3c3c3f;
+    text-align: center;
+    color: white;
+}
+footer p{
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.btn{
+    padding: 3% 10% 3% 10%;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: 2px rgb(240, 61, 61) solid;
+    box-shadow: 4px 4px 4px 5px #252323;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(240, 61, 61);
+    box-shadow: 5px 10px 8px 5px #252323;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}

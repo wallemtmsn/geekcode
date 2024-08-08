@@ -1,0 +1,86 @@
+/* app/static/css/styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #3b5998;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #555;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.btn-primary:hover {
+    background-color: #2d4373;
+    border-color: #2d4373;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.list-group-item strong {
+    color: #3b5998;
+}
+
+.socialize i{
+    margin: 5%;
+    padding: 3%;
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px 5px #252323;
+    font-size: xx-large;
+    background-color: #3c3c3f;
+}
+.socialize i:hover{
+    background-color: rgb(240, 61, 61);
+    color: #2E2E31;
+}
+footer{
+    background-color: #3c3c3f;
+    text-align: center;
+    color: white;
+}
+footer p{
+    padding: 10px;
+    margin-bottom: -10px;
+}
