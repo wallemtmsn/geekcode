@@ -118,3 +118,12 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+web: gunicorn run:app
+
+from app import app
+
+if __name__ == "__main__":
+	app.run(host='0.0.0.0', port=5000)
+Flask==2.0.1
+gunicorn==20.1.0
+web: gunicorn run:app
