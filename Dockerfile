@@ -21,4 +21,4 @@ RUN python -m venv $VIRTUAL_ENV && \
 COPY . .
 
 # Comando para iniciar a aplicação com Gunicorn
-CMD ["gunicorn", "-w", "4", "-b", "${HOST}:${PORT}", "run:app"]
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:${PORT:-8000}", "app:app"]
