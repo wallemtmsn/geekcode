@@ -20,5 +20,5 @@ RUN python -m venv $VIRTUAL_ENV && \
 # Copie o restante do código da aplicação
 COPY . .
 
-# Comando para iniciar a aplicação
-CMD ["python", "run.py"]
+# Comando para iniciar a aplicação com Gunicorn
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "app:app"]
